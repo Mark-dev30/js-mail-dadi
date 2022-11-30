@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* STRUCTURE */
+.container{
+    height: 100vh;
+}
+
+.card_logo{
+    width: 448px;
+    height: 500px;
+}
+
+.content_card{
+    padding: 20px;
+}
+
+
+.img-logo img{
+    width: 19%;
+}
+
+.email{
+    width: 100%;
+    height: 52px;
+    border: 1px solid rgb(199, 199, 199);
+    outline: none;
+    border-radius: 5px;
+}
+
+.email:focus {
+    border: 2px solid #1a73e8;
+}
+
+.content_card a{
+    text-decoration: none;
+    color: #1a73e8;
+}
