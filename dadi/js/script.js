@@ -1,10 +1,10 @@
 //1 - Genero un numero random per il computer.
     //1.1 - Creo una variabile "num_computer" a cui assegno un numero generato casualmente.
-let num_computer = (1 + Math.random() * 6).toFixed(0);
+let num_computer = (Math.random() * 6 + 1).toFixed(0);
 console.log(`${"Numero Computer"} ${num_computer}`)
 //2 - Genero un numero random per l'utente.
     //2.1 - Creo una variabile "num_user" a cui assegno un numero generato casualmente.
-let num_user = (1 + Math.random() * 6).toFixed(0);
+let num_user = (Math.random() * 6 + 1).toFixed(0);
 console.log(`${"Numero Utente"} ${num_user}`);
 
 //3 - Mostro a schermo chi ha vinto.
